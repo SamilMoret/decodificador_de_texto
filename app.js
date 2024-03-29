@@ -5,8 +5,14 @@ function criptografar() {
     let paragrafo = document.getElementById("paragrafo");
     let pesquisador = document.getElementById("pesquisador");
 
+    // Verifica se o texto está vazio
+    if (texto === "") {
+        swal("Oooops!", "Você deve escrever um texto", "warning");
+        return;
+    }
+
      // Verifica se o texto contém apenas letras minúsculas sem acentos
-     if (/^[a-z]+$/.test(texto)) {
+     if (/^[a-z\s.,;!?\"']+$/.test(texto)) {
     
     let textoCifrado = texto
         .replace(/e/gi, "enter")
@@ -29,7 +35,7 @@ function criptografar() {
         pesquisador.src = "./image/figura-com-lupa.jpg";
         tituloMensagem.textContent = "Nenhuma mensagem foi encontrada";
         paragrafo.textContent = "Digite o texto que deseja criptografar ou descriptografar";
-        swal("Oooops!", "Você deve escrever um texto e conter apenas letras minúsculas e sem acentos", "warning");
+        swal("Oooops!", "Lembre-se: O texto deve ser apenas letras minúsculas e sem acentos", "warning");
 
         // Ativa o botão de limpar
         let btnLimpar = document.querySelector(".btn-criptografar");
@@ -45,16 +51,22 @@ function descriptografar() {
     let paragrafo = document.getElementById("paragrafo");
     let pesquisador = document.getElementById("pesquisador");
 
+    // Verifica se o texto está vazio
+    if (texto === "") {
+        swal("Oooops!", "Você deve escrever um texto", "warning");
+        return;
+    }
+
     // Verifica se o texto contém apenas letras minúsculas sem acentos
-    if (/^[a-z]+$/.test(texto)) {
-    let textoCifrado = texto
+    if (/^[a-z\s.,;!?\"']+$/.test(texto)) {
+    let textoDescriptografado = texto
         .replace(/enter/gi, "e")
         .replace(/imes/gi, "i")
         .replace(/ai/gi, "a")
         .replace(/ober/gi, "o")
         .replace(/ufat/gi, "u");
 
-        document.getElementById("texto").value = textoCifrado;
+        document.getElementById("texto").value = textoDescriptografado;
         tituloMensagem.textContent = "Texto descriptografado com sucesso!";
         paragrafo.textContent = "";
         pesquisador.src = "./image/figura-moderna.png";
@@ -68,7 +80,7 @@ function descriptografar() {
         pesquisador.src = "./image/figura-com-lupa.jpg";
         tituloMensagem.textContent = "Nenhuma mensagem foi encontrada";
         paragrafo.textContent = "Digite o texto que deseja criptografar ou descriptografar";
-        swal("Oooops!", "Você deve escrever um texto e conter apenas letras minúsculas e sem acentos", "warning");
+        swal("Oooops!", "Lembre-se: O texto deve ser apenas letras minúsculas e sem acentos", "warning");
 
          // Ativa o botão de limpar
          let btnLimpar = document.querySelector(".btn-descriptografar");
