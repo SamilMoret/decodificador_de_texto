@@ -13,6 +13,10 @@
     --font--secundaria: "Montserrat", sans-serif;
 } 
 
+body{
+    width: 100%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -48,7 +52,7 @@
 .container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-image: url("image/pexels-bram-bleux.jpg");
 }
 
@@ -68,7 +72,7 @@
     line-height: 150%;
     border-radius: 2rem;
     background-color: var(--cor--quinta);
-    box-shadow:  2.938rem -0.188rem 1.25rem 1.125rem var(--cor--setima);
+    box-shadow:  1.938rem -0.188rem 1.25rem 1.125rem var(--cor--setima);
 }
 
 .texto::placeholder {
@@ -173,12 +177,12 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    width: 30%;
+    width: 25%;
     height: 90%;
-    left: 60%;
+    left: 61.5%;
     top: 5%;
     background: var(--cor--quinta);
-    box-shadow:  2.938rem -0.188rem 1.25rem 1.125rem var(--cor--setima);
+    box-shadow:  1.938rem -0.188rem 1.25rem 1.125rem var(--cor--setima);
     border-radius: 32px;
 }
 
@@ -220,8 +224,8 @@
 .criptografado img {
     position: absolute;
     width: 80%;
-    height: 50%;
-    top:15%;  
+    height: 60%;
+    top:8%;  
 }
 
 .rodape {

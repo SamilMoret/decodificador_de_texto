@@ -29,7 +29,14 @@ function criptografar() {
         // Transforma o botão de criptografar em botão de limpar
         let btnCriptografar = document.querySelector(".btn-criptografar");
         btnCriptografar.textContent = "Limpar";
+        btnCriptografar.classList.add("limpar-btn");
         btnCriptografar.onclick = limparTexto;
+        btnCriptografar.style.backgroundColor = "red";
+
+        // Remove a cor vermelha do botão descriptografar
+        let btnDescriptografar = document.querySelector(".btn-descriptografar");
+        btnDescriptografar.style.backgroundColor = "";
+        
     } else {
         // Se o texto contém caracteres inválidos, exibe uma mensagem de aviso
         pesquisador.src = "./image/figura-com-lupa.jpg";
@@ -40,7 +47,13 @@ function criptografar() {
         // Ativa o botão de limpar
         let btnLimpar = document.querySelector(".btn-criptografar");
         btnLimpar.textContent = "Limpar";
+        btnLimpar.classList.add("limpar-btn");
         btnLimpar.onclick = limparTexto;
+        btnLimpar.style.backgroundColor = "red";
+
+         // Remove a cor vermelha do botão descriptografar
+         let btnDescriptografar = document.querySelector(".btn-descriptografar");
+         btnDescriptografar.style.backgroundColor = "";
     }
 }
 
@@ -74,7 +87,14 @@ function descriptografar() {
         // Transforma o botão de descriptografar em botão de limpar
         let btnDescriptografar = document.querySelector(".btn-descriptografar");
         btnDescriptografar.textContent = "Limpar";
+        btnDescriptografar.classList.add("limpar-btn");
         btnDescriptografar.onclick = limparTexto;
+        btnDescriptografar.style.backgroundColor = "red"; 
+
+        // Remove a cor vermelha do botão criptografar
+        let btnCriptografar = document.querySelector(".btn-criptografar");
+        btnCriptografar.style.backgroundColor = "";
+
     } else {
         // Se o texto contém caracteres inválidos, exibe uma mensagem de aviso
         pesquisador.src = "./image/figura-com-lupa.jpg";
@@ -85,7 +105,13 @@ function descriptografar() {
          // Ativa o botão de limpar
          let btnLimpar = document.querySelector(".btn-descriptografar");
          btnLimpar.textContent = "Limpar";
+         btnLimpar.classList.add("limpar-btn");
          btnLimpar.onclick = limparTexto;
+         btnLimpar.style.backgroundColor = "red";
+
+         // Remove a cor vermelha do botão criptografar
+        let btnCriptografar = document.querySelector(".btn-criptografar");
+        btnCriptografar.style.backgroundColor = "";
     }
 }
 
@@ -99,10 +125,12 @@ function limparTexto() {
     let btnCriptografar = document.querySelector(".btn-criptografar");
     btnCriptografar.textContent = "Criptografar";
     btnCriptografar.onclick = criptografar;
+    btnCriptografar.style.backgroundColor = "";
 
     let btnDescriptografar = document.querySelector(".btn-descriptografar");
     btnDescriptografar.textContent = "Descriptografar";
     btnDescriptografar.onclick = descriptografar;
+    btnDescriptografar.style.backgroundColor = ""; 
 }
 
 function limparOutrosBotoes() {
