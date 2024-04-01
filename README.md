@@ -20,9 +20,12 @@ Em resumo, a aplicação proporciona uma maneira rápida e fácil de criptografa
 
 ### 🖥️ Tecnologias e Ferramentas: 
 
-<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" title = "HTML5"/></code>
+<a href="https://github.com/SamilMoret/decodificador_de_texto/blob/fce8c07dbaeed093ff4742f2133417cfa0df9c69/index.html"><code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" title = "HTML5"/></code></a>
 <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" title = "CSS3"/></code>
 <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title = "JAVASCRIPT"/></code>
+
+
+https://github.com/SamilMoret/decodificador_de_texto/blob/fce8c07dbaeed093ff4742f2133417cfa0df9c69/index.html
 
 <a href="https://trello.com/b/mItQ0gRo/decodificador-de-texto-alura-challenges"><img width="48" height="48" src="https://img.icons8.com/color/48/trello.png" alt="trello"/></a>
 <a href="https://www.figma.com/file/1lHZ6fFeImx98vIq31eovH/Alura-Challenge---Desafio-1---L%C3%B3gica-(Copy)?type=design&node-id=0-1&mode=design&t=IkpdXX1lpVJVS44s-0"><img width="48" height="48" src="https://img.icons8.com/color/48/figma--v1.png" alt="figma--v1"/></a>
