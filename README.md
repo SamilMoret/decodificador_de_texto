@@ -1,7 +1,9 @@
 <h1> Bem-vindo ao Decodificador de Texto.</h1>
 
+<p alaing = center>
 <img src=https://github.com/SamilMoret/decodificador_de_texto/blob/main/image/tela-principal-decodificador.png?raw=true> 
-
+</p>
+  
 ### Descripção do projeto:
 <p></p>
 
