@@ -25,8 +25,7 @@ Em resumo, a aplicação proporciona uma maneira rápida e fácil de criptografa
 <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title = "JAVASCRIPT"/></code>
 
 <a href="https://trello.com/b/mItQ0gRo/decodificador-de-texto-alura-challenges"><img src="https://iconos8.es/icons/set/logotipo-de-trello" width="58" height="58"></a>
-<a href="https://www.figma.com/file/1lHZ6fFeImx98vIq31eovH/Alura-Challenge---Desafio-1---L%C3%B3gica-(Copy)?type=design&node-id=0-1&mode=design&t=IkpdXX1lpVJVS44s-0"><img src="https://iconos8.es/icons/set/logotipo-de-figma" width="58" height="58"></a>
-
+<a href="https://www.figma.com/file/1lHZ6fFeImx98vIq31eovH/Alura-Challenge---Desafio-1---L%C3%B3gica-(Copy)?type=design&node-id=0-1&mode=design&t=IkpdXX1lpVJVS44s-0"><img width="48" height="48" src="https://img.icons8.com/color/48/figma--v1.png" alt="figma--v1"/></a>
 
 <h2>Feito por:</h2>
 <p>Samil Moret</p>
