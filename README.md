@@ -22,7 +22,7 @@ Em resumo, a aplicação proporciona uma maneira rápida e fácil de criptografa
 
 <a href="https://github.com/SamilMoret/decodificador_de_texto/blob/fce8c07dbaeed093ff4742f2133417cfa0df9c69/index.html"><code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" title = "HTML5"/></code></a>
 
-<a herf="https://github.com/SamilMoret/decodificador_de_texto/blob/c3f9743faa7a3661ec5df8620324c437cf54b2a0/style.css"><code><img width="40px" 
+<a herf="https://github.com/SamilMoret/decodificador_de_texto/blob/main/style.css"><code><img width="40px" 
 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" title = "CSS3"/></code></a>
 
 <a herf="https://github.com/SamilMoret/decodificador_de_texto/blob/c3f9743faa7a3661ec5df8620324c437cf54b2a0/app.js"><code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title = "JAVASCRIPT"/></code></a>
