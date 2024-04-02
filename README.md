@@ -22,10 +22,10 @@ Em resumo, a aplicação proporciona uma maneira rápida e fácil de criptografa
 
 <a href="https://github.com/SamilMoret/decodificador_de_texto/blob/fce8c07dbaeed093ff4742f2133417cfa0df9c69/index.html"><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" title = "HTML5"/></a>
 
-<a herf="https://github.com/SamilMoret/decodificador_de_texto/blob/fce8c07dbaeed093ff4742f2133417cfa0df9c69/style.css"><img width="40px" 
+<a href="https://github.com/SamilMoret/decodificador_de_texto/blob/fce8c07dbaeed093ff4742f2133417cfa0df9c69/style.css"><img width="40px" 
 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" title = "CSS3"/></a>
 
-<a herf="https://github.com/SamilMoret/decodificador_de_texto/blob/c3f9743faa7a3661ec5df8620324c437cf54b2a0/app.js"><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title = "JAVASCRIPT"/></a>
+<a href="https://github.com/SamilMoret/decodificador_de_texto/blob/c3f9743faa7a3661ec5df8620324c437cf54b2a0/app.js"><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title = "JAVASCRIPT"/></a>
 
 <a href="https://trello.com/b/mItQ0gRo/decodificador-de-texto-alura-challenges"><img width="48" height="48" src="https://img.icons8.com/color/48/trello.png" alt="trello"/></a>
 <a href="https://www.figma.com/file/1lHZ6fFeImx98vIq31eovH/Alura-Challenge---Desafio-1---L%C3%B3gica-(Copy)?type=design&node-id=0-1&mode=design&t=IkpdXX1lpVJVS44s-0"><img width="48" height="48" src="https://img.icons8.com/color/48/figma--v1.png" alt="figma--v1"/></a>
