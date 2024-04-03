@@ -4,12 +4,17 @@
 <img src=https://github.com/SamilMoret/decodificador_de_texto/blob/main/image/tela-principal-decodificador.png?raw=true> 
 </p>
 
-<p alaing = center>
+
+<div>
+<p alaing = justify>
 <img src=https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-tablet.png?raw=true> 
 </p>
-<p alaing = center>
+<p alaing = justify>
 <img src=https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-smartphone.png?raw=true> 
 </p>
+</div>
+
+
   
 ### Descripção do projeto:
 
