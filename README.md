@@ -1,21 +1,18 @@
 <h1> Bem-vindo ao Decodificador de Texto.</h1>
 
-<p alaing = center>
+<div alaing = center>
 <img src=https://github.com/SamilMoret/decodificador_de_texto/blob/main/image/tela-principal-decodificador.png?raw=true> 
-</p>
-
-
-<div>
-<p alaing = justify>
-<img src=https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-tablet.png?raw=true> 
-</p>
-<p alaing = justify>
-<img src=https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-smartphone.png?raw=true> 
-</p>
 </div>
 
+ <hr style="width: 100%; height: 2px; margin: 0;">
 
-  
+<div style="display: flex;">
+<img src=https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-tablet.png?raw=true style= "margin-right: 30px;"> 
+<img src=https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-smartphone.png?raw=true style="margin-left: 30px;"> 
+</div>
+
+ <hr style="width: 100%; height: 2px; margin: 0;">
+
 ### Descripção do projeto:
 
 <p> A aplicação é um utilitário de criptografia e descriptografia de texto simples. Ela permite que os usuários criptografem ou descriptografem mensagens de texto usando um algoritmo de substituição simples. Ao acessar a aplicação, o usuário é apresentado com uma interface simples, contendo uma área de texto para inserir sua mensagem e dois botões: "Criptografar" e "Descriptografar".
