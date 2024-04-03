@@ -102,7 +102,7 @@ body{
     height: 1.5rem;
 }
 
-.termos h3 {
+.termos p {
     font-family: var(--font--secundaria);
     font-style: normal;
     font-weight: 600;
@@ -199,7 +199,7 @@ body{
     text-align: center;
 }
 
-.mensagem-criptografado h2 {
+.mensagem-criptografado h3 {
     width: 60%;
     font-family: var(--font--secundaria);
     font-style: normal;
@@ -210,7 +210,7 @@ body{
     color: #343a40;
 }
 
-.mensagem-criptografado h4 {
+.mensagem-criptografado p {
     width: 80%;
     font-family: var(--font--secundaria);
     font-style: normal;
@@ -235,7 +235,7 @@ body{
     width: 100%;
     color:var(--cor--quinta);
     background: var(--cor--cuarta) ;
-    padding: 0.875rem;
+    padding: 0.975rem;
     text-align: center;
     font-family: var(--font--primaria);
     font-size: 1rem;
@@ -255,32 +255,110 @@ body{
     vertical-align: middle;
 }
 
-@media (max-width:57.5em ) {
-    .container{
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .container {
         display: flex;
         flex-direction: row;
     }
+
     .container-texto {
         width: 100%;
     }
-    .texto { 
+
+    .texto {
         width: 80%;
         height: 60%;
         left: 10%;
         top: 2%;
     }
+
     .termos {
-      width: 80%;
-      left: 10%;
-      top:67%
-    }  
+        width: 80%;
+        left: 10%;
+        top: 68%;
+    }
+
     .termos p {
         font-size: 1rem;
     }
+
+    .container-botoes {
+        width: 83%;
+        left: 10%;
+        top: 73%;
+    }
+
+    .btn-criptografar,
+    .btn-descriptografar {
+        width: 48%;
+        border-radius: 1rem;
+    }
+
+    .btn-criptografar:hover,
+    .btn-descriptografar:hover {
+        margin: 0.3%;
+        width: 47.5%;
+        padding: 1.8%;
+    }
+
+    .criptografado {
+        width: 83%;
+        height: 20%;
+        left: 10%;
+        top: 83%;    
+    }
+
+    .mensagem-criptografado {
+        width: 80%;
+        top: 10%;
+    }
+
+    .mensagem-criptografado h3{
+        top:30%;
+    }
+
+    .criptografado img {
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    .rodape {
+        margin-top: 5%;
+        padding-top: 1.875rem; 
+    }
+    
+}
+
+@media (min-width: 330px) and (max-width: 767px) {
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .container-texto {
+        width: 100%;
+    }
+    .texto { 
+        width: 74%;
+        height: 60%;
+        left: 10%;
+        top: 2%;
+    }
+    .termos {
+      left: 8%;
+      top:67%
+    }  
+    .termos p {
+        font-size: 100%;
+        color: #1519ff;
+    }
     .container-botoes {
         width: 80%;
-        left: 10%;
-        top: 70%
+        left: 8%;
+        top: 71.5%
     }
     .btn-criptografar,
     .btn-descriptografar {
@@ -301,11 +379,22 @@ body{
     }
     .mensagem-criptografado {
         width: 100%;
-        top: 5%;
+        top: 15%;
     }
+    
     .criptografado img {
         top:0;
         display: none;
         visibility: hidden;
     }
+
+    .rodape {
+        margin-top: 5%;
+        padding-top: 1.875rem; 
+    }
+    
+
 }
+
+
+
