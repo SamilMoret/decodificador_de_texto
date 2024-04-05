@@ -6,10 +6,14 @@
 
  <hr style="width: 100%; height: 2px; margin: 0;">
 
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-tablet.png?raw=true" style="margin-right: 15px;">
-    <img src="https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-smartphone.png?raw=true" style="margin-left: 15px;">
-</div>
+<table align="center" style="border-collapse: collapse;">
+  <tr>
+    <td><img src="https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-tablet.png?raw=true" style="margin-right: 30px;"></td>
+    <td style="width: 180px; background-color: transparent;"></td> 
+    <td><img src="https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-smartphone.png?raw=true" style="margin-left: 30px;"></td>
+  </tr>
+</table>
+
 
  <hr style="width: 100%; height: 2px; margin: 0;">
 
