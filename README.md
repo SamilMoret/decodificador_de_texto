@@ -30,6 +30,8 @@ Para facilitar a usabilidade, a aplicação também oferece a funcionalidade de 
 
 Em resumo, a aplicação proporciona uma maneira rápida e fácil de criptografar e descriptografar mensagens de texto simples, adequada para comunicações básicas e proteção de privacidade.</p>
 
+https://samilmoret.github.io/decodificador_de_texto/
+
 ### 🖥️ Tecnologias e Ferramentas: 
 
 <a href="https://github.com/SamilMoret/decodificador_de_texto/blob/fce8c07dbaeed093ff4742f2133417cfa0df9c69/index.html"><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" title = "HTML5"/></a>
