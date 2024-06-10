@@ -1,18 +1,7 @@
 <h1> Bem-vindo ao Decodificador de Texto.</h1>
 
-<div alaing = center>
-<img src=https://github.com/SamilMoret/decodificador_de_texto/blob/main/image/tela-principal-decodificador.png?raw=true> 
-</div>
 
- <hr style="width: 100%; height: 2px; margin: 0;">
-
-<table align="center">
-  <tr>
-    <td><img src="https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-tablet.png?raw=true" style="margin-right: 30px;"></td>
-    <td></td> <!-- Célula vazia para separação -->
-    <td><img src="https://github.com/SamilMoret/decodificador_de_texto/blob/c618ddbbccc2b275697ae69d7696503d49f7eaec/image/tela-smartphone.png?raw=true" style="margin-left: 30px;"></td>
-  </tr>
-</table>
+![Demonstração do Decodificador ](https://github.com/SamilMoret/decodificador_de_texto/blob/main/Anima%C3%A7%C3%A3o_Decodificador.gif)
 
  <hr style="width: 100%; height: 2px; margin: 0;">
 
